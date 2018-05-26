@@ -19,4 +19,4 @@ artifacts:
 
 branches:
   only:
-    - mrhso-desmume
+    - mrhso-desmume-CN
