@@ -1,0 +1,22 @@
+skip_tags: true
+version: '{branch} build {build}'
+configuration: Release
+
+platform:
+  - x86
+  - x64
+
+build:
+  project: .\desmume\src\frontend\windows\DeSmuME.sln
+  verbosity: minimal
+
+artifacts:
+  - path: desmume\src\frontend\windows\__bins\DeSmuME-VS2015-Release.exe
+    name: x86-32
+
+  - path: desmume\src\frontend\windows\__bins\DeSmuME-VS2015-x64-Release.exe
+    name: x86-64
+
+branches:
+  only:
+    - mrhso-desmume

@@ -233,8 +233,8 @@ Linux:
  enh: cli: better fps limiting (Thomas Jones)
  
 Wx: 
-  bug: some small fixes here and there (Jan B¸cken)
-  enh: lot of code cleanup (Jan B¸cken) 
+  bug: some small fixes here and there (Jan B√ºcken)
+  enh: lot of code cleanup (Jan B√ºcken) 
 
 0.9.6 -> 0.9.7 (r3493-r3812)
 
@@ -619,7 +619,7 @@ CPU/MMU:
  bug: Fixed Thumb LDMIA (fixes ingame Dead'n'Furious) [shash]
  bug: Fix repeating DMA (fixes NSMB parallax BG) [zeromus]
  bug: Proper handling for unaligned CPU accesses [luigi__]
- bug: Proper handling for undefined instruction exceptions [Salva PeirÛ]
+ bug: Proper handling for undefined instruction exceptions [Salva Peir√≥]
  bug: correctly return vram control register values (fixes homebrew 3d games) [zeromus]
  enh: Remove 16MB of WRAM at 0x01****** from arm9. Mapped to unused instead. Nobody knows what this was. [zeromus]
  enh: Changed instruction execution to 16 at a time blocks (tested and stable) [shash]
@@ -665,8 +665,8 @@ Mac OS X port:
  bug: Fixed: Frozen video output (and/or messed 3d emulation) after loading a state. [Jeff]
  bug: Added option to load the most recent file upon launching the program. [Jeff]
  enh: Added French translation (thanks to Pierre Rudloff). [Jeff]
- enh: Added basic key mapping configuration to application preferences (thanks to Julio Gorgé). [Jeff]
- enh: Added keyboard shortcuts for Execute, Pause and Reset command (thanks to Julio Gorgé). [Jeff]
+ enh: Added basic key mapping configuration to application preferences (thanks to Julio Gorg≈Ω). [Jeff]
+ enh: Added keyboard shortcuts for Execute, Pause and Reset command (thanks to Julio Gorg≈Ω). [Jeff]
  enh: Default key mappings are no longer case sensitive. [Jeff]
  enh: Added ability to limit speed. [Jeff]
  enh: Fixed: Video output should work on software-only 3D renderers. [Jeff]

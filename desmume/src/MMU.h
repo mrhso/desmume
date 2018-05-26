@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Copyright (C) 2006 yopyop
 	Copyright (C) 2007 shash
 	Copyright (C) 2007-2017 DeSmuME team

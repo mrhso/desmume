@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Copyright (C) 2008 shash
 	Copyright (C) 2008-2016 DeSmuME team
 
@@ -34,7 +34,7 @@ const char	*team[] = {
 	"rogerman",
 	"",
 	"Contributors\1",
-	"Bernat Mu�oz (shash)",
+	"Bernat Muñoz (shash)",
 	"Allustar",
 	"amponzi",
 	"Anthony Molinaro",
