@@ -242,7 +242,7 @@ CAPTION "Cheat search"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     PUSHBUTTON      "Restart",IDC_BRESTART,7,190,50,14,WS_DISABLED
-    PUSHBUTTON      "View",IDC_BVIEW,64,190,50,14,WS_DISABLED
+    PUSHBUTTON      "查看",IDC_BVIEW,64,190,50,14,WS_DISABLED
     DEFPUSHBUTTON   "Search",IDC_BSEARCH,120,190,50,14
 END
 
@@ -455,7 +455,7 @@ END
 
 IDD_EMULATIONSETTINGS DIALOGEX 0, 0, 477, 234
 STYLE DS_SETFONT | DS_CENTER | WS_CAPTION | WS_SYSMENU
-CAPTION "Emulation settings"
+CAPTION "模拟设定"
 FONT 8, "MS Sans Serif", 0, 0, 0x0
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,368,215,50,14
@@ -502,7 +502,7 @@ END
 
 IDD_FIRMSETTINGS DIALOGEX 0, 0, 161, 145
 STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
-CAPTION "Firmware Settings"
+CAPTION "固件设定"
 FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     EDITTEXT        IDC_EDIT1,66,14,82,14,ES_AUTOHSCROLL | ES_WANTRETURN | WS_GROUP
@@ -588,7 +588,7 @@ END
 
 IDD_LUA DIALOGEX 0, 0, 270, 150
 STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
-CAPTION "Lua Script"
+CAPTION "Lua 脚本"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     PUSHBUTTON      "Browse...",IDC_BUTTON_LUABROWSE,7,31,48,16
@@ -1627,7 +1627,7 @@ BEGIN
             MENUITEM "总是最前 (&A)",               IDM_ALWAYS_ON_TOP
             MENUITEM "锁死 (&L)",                   IDM_LOCKDOWN
         END
-        POPUP "Screen Size Ratio (L:R)"
+        POPUP "屏幕比例（左比右）"
         BEGIN
             MENUITEM "1.0 : 1.0",                   IDC_SCR_RATIO_1p0
             MENUITEM "1.1 : 0.9",                   IDC_SCR_RATIO_1p1
@@ -1636,7 +1636,7 @@ BEGIN
             MENUITEM "1.4 : 0.6",                   IDC_SCR_RATIO_1p4
             MENUITEM "1.5 : 0.5",                   IDC_SCR_RATIO_1p5
             MENUITEM SEPARATOR
-            MENUITEM "Center Vertically",           IDC_SCR_VCENTER
+            MENUITEM "垂直居中",                    IDC_SCR_VCENTER
         END
         POPUP "屏幕间隔 (&G)"
         BEGIN
@@ -1651,11 +1651,11 @@ BEGIN
             MENUITEM "灰 (&G)",                     IDM_SCREENSEP_COLORGRAY
             MENUITEM "黑 (&B)",                     IDM_SCREENSEP_COLORBLACK
         END
-        POPUP "Fullscreen Options"
+        POPUP "全屏选项"
         BEGIN
             MENUITEM "Force Windowed Fullscreen",   IDM_FS_WINDOW
-            MENUITEM "Show Menu",                   IDM_FS_MENU
-            MENUITEM "Auto-Hide Cursor",            IDM_FS_HIDE_CURSOR
+            MENUITEM "显示菜单",                    IDM_FS_MENU
+            MENUITEM "自动隐藏光标",                IDM_FS_HIDE_CURSOR
         END
         POPUP "放大滤镜 (&F)"
         BEGIN
@@ -1819,7 +1819,7 @@ END
 
 RAMWATCH_MENU MENU
 BEGIN
-    POPUP "File"
+    POPUP "文件"
     BEGIN
         MENUITEM "&New list\tCtrl N",           RAMMENU_FILE_NEW
         MENUITEM "&Open...\tCtrl O",            RAMMENU_FILE_OPEN
@@ -1847,7 +1847,7 @@ END
 
 RECENTROMS MENU
 BEGIN
-    POPUP "Recent ROMs"
+    POPUP "最近 ROM"
     BEGIN
         MENUITEM "None",                        65501, GRAYED
         MENUITEM SEPARATOR
@@ -1859,11 +1859,11 @@ MENU_FSNITRO MENU
 BEGIN
     POPUP "FSNITRO"
     BEGIN
-        MENUITEM "&View",                       ID_FSNITRO_VIEW
-        MENUITEM "Extract &File...",            ID_EXTRACTFILE
-        MENUITEM "Extract &All...",             ID_EXTRACTALL
+        MENUITEM "查看 (&V)",                   ID_FSNITRO_VIEW
+        MENUITEM "提取文件…… (&F)",           ID_EXTRACTFILE
+        MENUITEM "提取全部…… (&A)",           ID_EXTRACTALL
         MENUITEM SEPARATOR
-        MENUITEM "&Close",                      IDCANCEL
+        MENUITEM "关闭 (&C)",                   IDCANCEL
     END
 END
 
